@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Skytrails</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="policy&otherpages.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top_header">
+
+        <div class="hamburgerBox">
+            <span class="" onclick="openNav()">&#9776;</span>
+        </div>
+
+        <a href="index.html" style="display: flex; align-items: center; justify-content: center;">
+            <img class="logo" src="src_images/top_header_logo.svg" alt="Company Logo">
+        </a>
+        <div class="top_header_contactus">
+            <div style="display: flex; height: 24px; justify-content: center; align-items: center; gap: 8px;">
+                <img src="src_images/call_icon.svg" alt="call us" style="vertical-align: middle;">
+                <p style="margin: 0;">Call Us :</p>
+                <p style="margin: 0;">
+                    <a href="tel:+919311393114" style="text-decoration: none; color: inherit;">+91 93113-93114</a>
+                </p>
+            </div>
+
+            <div style="display: flex; gap: 20px; align-items: center;">
+                <div style="display: flex; align-items: center; justify-content: center;">
+                    <img src="src_images/seperator_topheader.svg" alt="seperator">
+                </div>
+                <a href="#form" style="display: flex; align-items: center; justify-content: center;">
+                    <img src="src_images/calendar.svg" alt="calendar">
+                </a>
+                <a href="mailto:info@theskytrails.com"
+                    style="display: flex; align-items: center; justify-content: center;">
+                    <img src="src_images/mail_icon.svg" alt="mail to">
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-expand-md BackColor disp">
+        <div class="container-fluid padding-lg">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">What's New</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Visas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="visas.html">Visa</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ssdc.html">SSDC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="overseas_jobs.html">Overseas Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blogs.html">Blogs/News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="travel_holidays.html">Travel & Holidays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_us.html">About Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="submit" type="submit">
+                    <a class="customHeaderButton" href="https://crm.theskytrails.com">Login</a>
+                </form>
+            </div>
+        </div>
+    </nav> -->
+
+    <div id="mySidenav" class="sidenav">
+        <div class="mb-3">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        </div>
+        <div class="sideNav-Links">
+            <!-- <div>
+                <a href="index.html">What’s New</a>
+            </div>
+            <div>
+                <a href="visas.html">Visas</a>
+            </div>
+            <div>
+                <a href="ssdc.html">SSDC</a>
+            </div>
+            <div>
+                <a href="overseas_jobs.html">Overseas Jobs</a>
+            </div>
+            <div>
+                <a href="blogs.html">Blogs/News</a>
+            </div>
+            <div>
+                <a href="travel_holidays.html">Travel & Holidays</a>
+            </div>
+            <div>
+                <a href="about_us.html">About Us</a>
+            </div> -->
+            <div class="sideContact">
+                <div>
+                    <a href="tel:+919311393114">Call Us</a>
+                    <img src="sidenav/call.svg" alt="call us" style="vertical-align: middle;">
+                </div>
+                <div>
+                    <a href="mailto:info@theskytrails.com">Email Us</a>
+                    <img src="sidenav/mail.svg" alt="mail to">
+                </div>
+                <div>
+                    <a href="#">Connect</a>
+                    <img src="sidenav/calendar_month.svg" alt="calendar">
+                </div>
+            </div>
+            <form class="d-flex" type="submit">
+                <a class="customHeaderButton" href="https://crm.theskytrails.com">Login</a>
+            </form>
+        </div>
+    </div>
+
+    <div class="body_css">
+        <div class="body_content">
+            <h2>Refund & Cancellation Policy of The Skytrails</h2>
+
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+                <p>The Skytrails Private Limited is committed to protecting the confidentiality and privacy of its
+                    clients. We take necessary measures to safeguard personal information from unauthorized access,
+                    misuse, loss, modification, or disclosure. We may use and disclose clients' personal information for
+                    the primary purpose for which it's collected, and for other related secondary purposes, as
+                    authorized by the Privacy Act. Generally, personal information is used for:
+                </p>
+
+                <ol class="custom-list">
+                    <li>Conducting our business,</li>
+                    <li>Providing and marketing our services,</li>
+                    <li>Communicating with clients,</li>
+                    <li>Complying with legal obligations,</li>
+                    <li>Managing and improving our services.</li>
+                </ol>
+
+                <p>Please note, The Skytrails Private Limited does not issue refunds for early service withdrawal under
+                    any circumstances.</p>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+                <h4>Refund Policy:</h4>
+
+                <ol class="custom-list">
+                    <li> Refunds are based on the full-service fee paid, not just the amount paid. </li>
+                    <li>Eligibility for refunds requires payment of the complete service fee.</li>
+                    <li>Refunds are not available if the client’s profile becomes ineligible after immigration
+                        announcements.</li>
+                    <li>We have a zero-tolerance policy for chargebacks. Disputed payments deemed valid may lead to
+                        being
+                        blacklisted and barred from our services.</li>
+                    <li>Tax components included in the total invoice amount are non-refundable.</li>
+                    <li>Refunds for rejections by Immigration Authorities are processed within 15-30 working days upon
+                        receipt of a completed Online Refund Claim Form and a copy of the rejection letter.</li>
+                    <li>The Skytrails Private Limited is not responsible for delays caused by third-party services, nor
+                        for
+                        refunding fees paid to external Assessing Bodies or Immigration Authorities.</li>
+                    <li>Clients using online card services agree not to charge back without following our refund norms.
+                    </li>
+                    <li>Service charges are non-refundable if the client fails to comply with necessary requirements or
+                        withdraws their application.</li>
+                    <li>No refunds are issued for permit rejections based on non-attendance of interviews, failure of
+                        medicals, non-compliance with embassy requirements, insufficient funds, prior immigration law
+                        violations, or late submission of additional papers.</li>
+                    <li>Clients must provide all necessary documents within 30 days of registration. Failure to do so
+                        will
+                        void any claim for a refund.</li>
+                    <li>The Skytrails Private Limited is not responsible for the outcome of immigration assessments and
+                        has
+                        no control over the approval process.</li>
+                    <li>Payments made to government bodies and other organizations for assessments, health tests, etc.,
+                        are
+                        non-refundable.</li>
+                    <li>Clients must inform us of any changes in personal circumstances that might affect their
+                        application.
+                        Clients must achieve the required scores in English or other language tests as applicable.
+                        Refunds or transfers of fees are not available if a client withdraws from the process after
+                        signing
+                        up.</li>
+                    <li>Any undisclosed criminal or insolvency cases against the client or their dependents will
+                        invalidate
+                        any refund claims.</li>
+                    <li>Clients are informed about average waiting times for permit classes and understand that extended
+                        processing times do not entitle them to refunds.</li>
+                    <li>The Skytrails Private Limited does not guarantee job placements abroad.</li>
+                    <li>In case of disputes, our liability will not exceed the consulting charges paid.</li>
+                    <li>Refunds are not issued if a Green Card/Permanent Residence is not granted due to cap limits.
+                    </li>
+                    <li>Service amounts include only the individual’s request, not extended services to family or
+                        children.</li>
+                    <li>All fees are quoted in Indian Rupees and are responsible for all fees and applicable taxes.</li>
+                    <li>We are a private company and do not have the authority to grant permits.</li>
+                    <li>Our agreements are based on trust and transparency. All terms are clearly stated with no hidden
+                        conditions.</li>
+                    <li>Clients' decision to choose our services is their own and not influenced by us.</li>
+                    <li>Governing Law: The Skytrails Private Limited operates in compliance with the laws of the
+                        Government of India. In the event of any disputes, they will fall under the jurisdiction of
+                        courts in
+                        Punjab, Chandigarh, and New Delhi, NCT.</li>
+                    <li>Force Majeure: We are not liable for delays or failures in service
+                        due to events beyond our control.</li>
+                    <li>Clients agree not to claim a refund irrespective of the service outcome.</li>
+                </ol>
+            </div>
+
+
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+                <p>For further details, please contact us at <a href="tel:+919311393114" >+91 93113-93114</a> or email us at <a
+                        href="mailto:info@theskytrails.com">info@theskytrails.com</a>. Our representatives will assist
+                    you promptly.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer_css">
+
+        <div class="footer_content">
+
+            <div class="company-details-address">
+
+                <a href="index.html">
+                    <img src="images/footer_logo.svg" alt="company logo">
+                </a>
+
+                <div
+                    style="display: flex; flex-direction: row; align-items: center; gap: 8px; color: #FFF; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-weight: 600; line-height: 16px; ">
+                    <img src="images/location_icon.svg" alt="location_icon">
+                    <p> Skytrails Private Limited </p>
+                </div>
+
+                <div class="office-address">
+                    <div>
+                        <h4><a href="https://maps.app.goo.gl/QUrVVHnj6zxtiEs26" target="_blank">Chandigarh</a></h4>
+                        <p>1st Floor, Picadilly Square Mall, Sector 34 A, <br> Chandigarh - 160022</p>
+                    </div>
+
+                    <div>
+                        <h4><a href="https://maps.app.goo.gl/J7eoSEp4tcSTRrLn7" target="_blank">Delhi</a></h4>
+                        <p>BB-11, 1st Floor, Masjid Moth, Greater Kailash-3, <br> GK Enclave, New Delhi - 110048</p>
+                    </div>
+
+                    <div>
+                        <h4><a href="https://maps.app.goo.gl/htX9psBugPXCWDCS9" target="_blank">Patiala</a></h4>
+                        <p>Walia Enclave, Fateh Complex, opp. Punjabi University, <br> Patiala, Punjab - 147002</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-pagelinks">
+                <a href="privacypolicy.html">
+                    <p>Privacy Policy</p>
+                </a>
+                <a href="antifraud_policy.html">
+                    <p>Anti Fraud Policy</p>
+                </a>
+                <a href="refund_policy.html">
+                    <p>Refund & Cancellation</p>
+                </a>
+                <a href="terms&condition.html">
+                    <p>Terms & Conditions</p>
+                </a>
+            </div>
+
+            <div class="footer-pagelinks">
+                <p>Follow Us:</p>
+                <div class="footer-socialmedia">
+                    <a href="https://www.facebook.com/skytrails.skill.development.center/" target="_blank">
+                        <img src="images/fb.svg" alt="facebook">
+                    </a>
+                    <a href="https://www.instagram.com/skytrails_ssdc/" target="_blank">
+                        <img src="images/insta.svg" alt="Instagram">
+                    </a>
+                    <a href="https://www.youtube.com/@skytrails_SDC" target="_blank">
+                        <img src="images/youtube.svg" alt="youtube">
+                    </a>
+                    <a href="https://twitter.com/TheSkytrails" target="_blank">
+                        <img src="images/twitter.svg" alt="twitter">
+                    </a>
+                    <a href="https://www.linkedin.com/company/theskytrailsofficial" target="_blank">
+                        <img src="images/linkedin.svg" alt="linkedin">
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div
+            style="color: #FFF; font-family: Montserrat, sans-serif; font-size: 12px; font-style: normal; font-weight: 400; line-height: 16px; ">
+            <p> © Skytrails Private Limited. All Rights Reserved. </p>
+        </div>
+
+    </div>
+
+</body>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "220px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+
+</html>

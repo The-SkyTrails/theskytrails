@@ -1,0 +1,108 @@
+/* Body content css */
+
+.body_css {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    width: 100%;
+    height: 100%;
+    padding: 48px 96px;
+    justify-content: center;
+    align-items: center;
+    background: #C5E5FD;
+}
+
+.body_content {
+    display: flex;
+    padding: 48px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 48px;
+    border-radius: 16px;
+    background: #FFF;
+}
+
+.body_content h2 {
+    color: #E73C34;
+    font-family: Montserrat, sans-serif;
+    width: 100%;
+    align-self: stretch;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.body_content h4 {
+    color: #071C2C;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.body_content p {
+    color: #071C2C;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+ol.custom-list li {
+    color: #071C2C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    list-style-type: decimal;
+}
+
+/* Navigation Bar */
+
+.navigation-bar {
+    display: flex;
+    width: 100%px;
+    padding: 0px 12px;
+    justify-content: left;
+    align-items: center;
+    background: #071C2C;
+    gap: 40px;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    background-color: #E73C34;
+    /* Original button color */
+    color: #FFF;
+    /* Text color */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* Typically, the line height should be greater than the font size for better readability */
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    /* Slower transition effect */
+}
+
+.login-button:hover {
+    background-color: #c4322c;
+    /* Darker color on hover, calculated manually */
+    color: #FFF;
+    /* Keeps the text color white on hover */
+}

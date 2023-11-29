@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Skytrails</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="policy&otherpages.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top_header">
+
+        <div class="hamburgerBox">
+            <span class="" onclick="openNav()">&#9776;</span>
+        </div>
+
+        <a href="index.html" style="display: flex; align-items: center; justify-content: center;">
+            <img class="logo" src="src_images/top_header_logo.svg" alt="Company Logo">
+        </a>
+        <div class="top_header_contactus">
+            <div style="display: flex; height: 24px; justify-content: center; align-items: center; gap: 8px;">
+                <img src="src_images/call_icon.svg" alt="call us" style="vertical-align: middle;">
+                <p style="margin: 0;">Call Us :</p>
+                <p style="margin: 0;">
+                    <a href="tel:+919311393114" style="text-decoration: none; color: inherit;">+91 93113-93114</a>
+                </p>
+            </div>
+
+            <div style="display: flex; gap: 20px; align-items: center;">
+                <div style="display: flex; align-items: center; justify-content: center;">
+                    <img src="src_images/seperator_topheader.svg" alt="seperator">
+                </div>
+                <a href="#form" style="display: flex; align-items: center; justify-content: center;">
+                    <img src="src_images/calendar.svg" alt="calendar">
+                </a>
+                <a href="mailto:info@theskytrails.com"
+                    style="display: flex; align-items: center; justify-content: center;">
+                    <img src="src_images/mail_icon.svg" alt="mail to">
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-expand-md BackColor disp">
+        <div class="container-fluid padding-lg">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">What's New</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Visas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="visas.html">Visa</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ssdc.html">SSDC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="overseas_jobs.html">Overseas Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blogs.html">Blogs/News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="travel_holidays.html">Travel & Holidays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_us.html">About Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="submit" type="submit">
+                    <a class="customHeaderButton" href="https://crm.theskytrails.com">Login</a>
+                </form>
+            </div>
+        </div>
+    </nav> -->
+
+    <div id="mySidenav" class="sidenav">
+        <div class="mb-3">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        </div>
+        <div class="sideNav-Links">
+            <!-- <div>
+                <a href="index.html">What’s New</a>
+            </div>
+            <div>
+                <a href="visas.html">Visas</a>
+            </div>
+            <div>
+                <a href="ssdc.html">SSDC</a>
+            </div>
+            <div>
+                <a href="overseas_jobs.html">Overseas Jobs</a>
+            </div>
+            <div>
+                <a href="blogs.html">Blogs/News</a>
+            </div>
+            <div>
+                <a href="travel_holidays.html">Travel & Holidays</a>
+            </div>
+            <div>
+                <a href="about_us.html">About Us</a>
+            </div> -->
+            <div class="sideContact">
+                <div>
+                    <a href="tel:+919311393114">Call Us</a>
+                    <img src="sidenav/call.svg" alt="call us" style="vertical-align: middle;">
+                </div>
+                <div>
+                    <a href="mailto:info@theskytrails.com">Email Us</a>
+                    <img src="sidenav/mail.svg" alt="mail to">
+                </div>
+                <div>
+                    <a href="#">Connect</a>
+                    <img src="sidenav/calendar_month.svg" alt="calendar">
+                </div>
+            </div>
+            <form class="d-flex" type="submit">
+                <a class="customHeaderButton" href="https://crm.theskytrails.com">Login</a>
+            </form>
+        </div>
+    </div>
+    
+
+    <div class="body_css">
+        <div class="body_content">
+            <h2>Privacy Policy of The Skytrails</h2>
+
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+                <p>The Skytrails, a premier recruitment and manpower company specialising in immigration, work permit,
+                    and Visa services, is committed to upholding the highest standards of confidentiality and privacy.
+                    We understand the sensitivity of your personal information and treat all client data with the utmost
+                    respect and discretion.
+                </p>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+                <h4>Confidentiality Assurance:</h4>
+                <ol class="custom-list">
+                    <li>Information Handling: Personal and business proprietary information provided to The Skytrails is
+                        maintained with strict confidentiality. Access to this information is limited to a need-to-know
+                        basis within our organization.</li>
+                    <li>Personal Information Usage: We collect personal details only when you voluntarily send us a
+                        message. This information is used exclusively by our trained personnel to perform the services
+                        you have engaged us for.</li>
+                    <li>Email Privacy: Your email address will be used solely for the purpose it was provided for. We do
+                        not use client emails for marketing, nor do we share them without explicit consent.</li>
+                    <li>Information Sharing: The only circumstance under which your information might be shared is with
+                        government agencies involved in your immigration process, such as immigration authorities in
+                        various countries, under strict confidentiality protocols.</li>
+                    <li>Optional Registration: You may choose to register on our website to receive newsletters,
+                        catalogs, or updates about our services. We will only use your information for these purposes
+                        with your consent.</li>
+                </ol>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+                <h4>Security Measures:</h4>
+                <ol class="custom-list">
+                    <li>We have robust security measures to protect against data loss, misuse, or alteration.</li>
+                    <li>All personal and financial information is encrypted during transmission over the Internet.</li>
+                    <li>Despite our efforts, we cannot guarantee absolute security of your information during
+                        transmission.</li>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+                <h4>Third-Party Links and Content:</h4>
+                <ol class="custom-list">
+                    <li>Our website may contain links to third-party sites. The Skytrails is not responsible for the
+                        privacy practices or content of these external sites.</li>
+                    <li>We advise users to review the privacy policies of any third-party sites before engagement.</li>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+                <h4>Policy Updates:</h4>
+                <ol class="custom-list">
+                    <li>Our Privacy Policy and Terms and Conditions are subject to change. We encourage clients to
+                        regularly check our website for any updates.</li>
+                    <li>The current policy applies to all information we have about you and your account.</li>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+                <h4>Mobile Application Permissions:</h4>
+                <ol class="custom-list">
+                    <li>Location Access: For displaying nearby Centres/Institutes based on user location.</li>
+                    <li>SMS Access: For auto-filling OTP for a streamlined sign-up process.</li>
+                    <li>Storage Access: To store and view test materials and reports.</li>
+                    <li>Camera Access: For profile image upload and capturing test sheets for evaluation.</li>
+                    <li>Microphone Access: To record audio for speaking tests.</li>
+                    <li>Identity Access: For auto-filling Gmail accounts for faster sign-up.</li>
+                    <li>Photos/Media/Files Access: To select profile pictures from the device’s gallery.</li>
+                    <li>Device ID & Call Information: To identify specific device issues for UX improvements.</li>
+
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+                <h4>For more information,</h4>
+                <p>Please contact our experts at <a href="mailto:info@theskytrails.com">info@theskytrails.com</a>. Our
+                    team is dedicated to providing prompt and comprehensive responses.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer_css">
+
+        <div class="footer_content">
+
+            <div class="company-details-address">
+
+                <a href="index.html">
+                    <img src="images/footer_logo.svg" alt="company logo">
+                </a>
+
+                <div
+                    style="display: flex; flex-direction: row; align-items: center; gap: 8px; color: #FFF; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-weight: 600; line-height: 16px; ">
+                    <img src="images/location_icon.svg" alt="location_icon">
+                    <p> Skytrails Private Limited </p>
+                </div>
+
+                <div class="office-address">
+                    <div>
+                        <h4><a href="https://maps.app.goo.gl/QUrVVHnj6zxtiEs26" target="_blank">Chandigarh</a></h4>
+                        <p>1st Floor, Picadilly Square Mall, Sector 34 A, <br> Chandigarh - 160022</p>
+                    </div>
+
+                    <div>
+                        <h4><a href="https://maps.app.goo.gl/J7eoSEp4tcSTRrLn7" target="_blank">Delhi</a></h4>
+                        <p>BB-11, 1st Floor, Masjid Moth, Greater Kailash-3, <br> GK Enclave, New Delhi - 110048</p>
+                    </div>
+
+                    <div>
+                        <h4><a href="https://maps.app.goo.gl/htX9psBugPXCWDCS9" target="_blank">Patiala</a></h4>
+                        <p>Walia Enclave, Fateh Complex, opp. Punjabi University, <br> Patiala, Punjab - 147002</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-pagelinks">
+                <a href="privacypolicy.html">
+                    <p>Privacy Policy</p>
+                </a>
+                <a href="antifraud_policy.html">
+                    <p>Anti Fraud Policy</p>
+                </a>
+                <a href="refund_policy.html">
+                    <p>Refund & Cancellation</p>
+                </a>
+                <a href="terms&condition.html">
+                    <p>Terms & Conditions</p>
+                </a>
+            </div>
+
+            <div class="footer-pagelinks">
+                <p>Follow Us:</p>
+                <div class="footer-socialmedia">
+                    <a href="https://www.facebook.com/skytrails.skill.development.center/" target="_blank">
+                        <img src="images/fb.svg" alt="facebook">
+                    </a>
+                    <a href="https://www.instagram.com/skytrails_ssdc/" target="_blank">
+                        <img src="images/insta.svg" alt="Instagram">
+                    </a>
+                    <a href="https://www.youtube.com/@skytrails_SDC" target="_blank">
+                        <img src="images/youtube.svg" alt="youtube">
+                    </a>
+                    <a href="https://twitter.com/TheSkytrails" target="_blank">
+                        <img src="images/twitter.svg" alt="twitter">
+                    </a>
+                    <a href="https://www.linkedin.com/company/theskytrailsofficial" target="_blank">
+                        <img src="images/linkedin.svg" alt="linkedin">
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div
+            style="color: #FFF; font-family: Montserrat, sans-serif; font-size: 12px; font-style: normal; font-weight: 400; line-height: 16px; ">
+            <p> © Skytrails Private Limited. All Rights Reserved. </p>
+        </div>
+
+    </div>
+
+</body>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "220px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+</html>
